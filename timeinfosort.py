@@ -16,6 +16,7 @@ for l in range(1,5):
     if x==3:
         x=0
         file1.write("\n")
+        
         if columns[2]=='11' or y!=0:
             file2.write(line)
             y=y+1
@@ -24,6 +25,7 @@ for l in range(1,5):
         file2.write("\n")
     file3.close()
     
+
 
 file1.close()
 file2.close()
