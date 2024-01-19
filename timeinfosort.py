@@ -8,6 +8,7 @@ for l in range(1,5):
     
     file3 = open("%smuon_production00%d_timeInfo"%(path,l),'r')
     
+    
     for line in file3.readlines():
         columns=line.split()		
         if columns[2]=='10' or x!=0:
