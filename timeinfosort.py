@@ -1,7 +1,7 @@
 
 x=0
 y=0
-path='/Users/lukecalvin/2023/eli_np_muon_primaries/'
+path='/Users/lukecalvin/2023/eli_np_muon_primaries_1.0GeV/'
 file1 = open("%smuon+_time.txt"%(path), "w")
 file2 = open("%spositime.txt"%(path), "w")
 for l in range(1,5):
@@ -25,7 +25,7 @@ for l in range(1,5):
                 y=0
         file2.write("\n")
     file3.close()
-    
+
     
 
 
